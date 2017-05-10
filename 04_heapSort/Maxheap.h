@@ -1,3 +1,12 @@
+#ifndef MAXHEAP_H
+#define MAXHEAP_H
+
+#include <cassert>
+#include <string.h>
+#include <stdio.h>
+
+using namespace std;
+
 template <typename T>
 class MaxHeap
 {
@@ -80,3 +89,5 @@ class MaxHeap
 
     T *m_data;
 };
+
+#endif //MAXHEAP_H

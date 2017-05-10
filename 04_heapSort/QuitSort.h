@@ -1,3 +1,12 @@
+#ifndef QUITSORT_H
+#define QUITSORT_H
+
+#include <cassert>
+#include <string.h>
+#include <stdio.h>
+
+using namespace std;
+
 template <typename T>
 void __quitSort3way(T arr[], int left, int right)
 {
@@ -37,3 +46,5 @@ void quitSort(T arr[], int n)
 	srand(time(NULL));
 	__quitSort3way(arr, 0, n-1);
 }
+
+#endif //QUITSORT_H

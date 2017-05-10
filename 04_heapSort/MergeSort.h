@@ -1,3 +1,12 @@
+#ifndef MERGESORT_H
+#define MERGESORT_H
+
+#include <cassert>
+#include <string.h>
+#include <stdio.h>
+
+using namespace std;
+
 // 进行 [left, mid] [mid+1, right] 两个数组合并
 template <typename T>
 void __merge(T arr[], int left, int mid, int right)
@@ -49,3 +58,5 @@ void mergeSort(T arr[], int n) {
 
 	__mergeSort(arr, 0, n-1);
 }
+
+#endif //MERGESORT_H
