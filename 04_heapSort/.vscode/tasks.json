@@ -12,6 +12,7 @@
     "version": "0.1.0",
     "command": "g++",
     "args": ["-g","${file}","-o","${file}.exe"],
+    "showOutput": "always",
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "${workspaceRoot}"],

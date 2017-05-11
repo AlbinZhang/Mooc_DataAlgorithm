@@ -2,6 +2,10 @@
 #define SORTTESTHELPER_H
 
 #include <iostream>
+#include <algorithm>
+#include <string>
+#include <stdio.h>
+#include <string.h>
 #include <ctime>
 #include <cassert>
 #include <iomanip>

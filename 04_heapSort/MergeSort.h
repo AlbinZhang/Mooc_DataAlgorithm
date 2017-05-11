@@ -4,6 +4,7 @@
 #include <cassert>
 #include <string.h>
 #include <stdio.h>
+#include <ctime>
 
 using namespace std;
 
@@ -11,7 +12,7 @@ using namespace std;
 template <typename T>
 void __merge(T arr[], int left, int mid, int right)
 {
-	T aux[right-left+1];
+	T *aux = new T[right-left+1];
 	for (int i = left; i <= right; i++) {
 		aux[i-left] = arr[i];
 	}
@@ -37,6 +38,7 @@ void __merge(T arr[], int left, int mid, int right)
 			j++;
 		}
 	}
+	delete [] aux;
 }
 
 // 使用归并排序 a[left, right] 这个闭区间

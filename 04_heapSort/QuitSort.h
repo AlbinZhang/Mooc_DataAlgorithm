@@ -1,10 +1,9 @@
 #ifndef QUITSORT_H
 #define QUITSORT_H
 
-#include <cassert>
-#include <string.h>
-#include <stdio.h>
-
+#include <iostream>
+#include <ctime>
+#include <algorithm>
 using namespace std;
 
 template <typename T>
