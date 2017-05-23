@@ -41,7 +41,7 @@
             "includePath": [
                 "${workspaceRoot}", 
                 "d:/MinGW/include",
-                "d:/MinGW/lib/gcc/mingw32/5.3.0/include/",
+                "d:/MinGW/lib/gcc/mingw32/5.3.0/include/c++",
                 "C:/Program Files (x86)/Windows Kits/8.1/Include/um",
                 "C:/Program Files (x86)/Windows Kits/8.1/Include/shared",
                 "C:/Program Files (x86)/Windows Kits/8.1/Include/winrt"
@@ -52,11 +52,11 @@
             ],
             "browse": {
                 "path": [
+                    "d:/MinGW/include",
+                    "d:/MinGW/lib/gcc/mingw32/5.3.0/include/c++",
                     "C:/Program Files (x86)/Windows Kits/8.1/Include/um",
                     "C:/Program Files (x86)/Windows Kits/8.1/Include/shared",
-                    "C:/Program Files (x86)/Windows Kits/8.1/Include/winrt",
-                    "d:/MinGW/include",
-                    "d:/MinGW/lib/gcc/mingw32/5.3.0/include/"
+                    "C:/Program Files (x86)/Windows Kits/8.1/Include/winrt"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
